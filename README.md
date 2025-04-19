@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Case Management Tool (Frontend)
 
-## Getting Started
+A responsive web-based **case management interface** built with **Next.js and Tailwind CSS** to streamline workflows and enhance accessibility for clients and staff.  
+This project integrates seamlessly with the backend API and supports Microsoft 365 features such as calendar events and task synchronization.
 
-First, run the development server:
+> 🚀 This is a forked version of a collaborative frontend project. I contributed to UI optimizations, component restructuring, accessibility improvements, and integration refinements.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
+- **API Integration:** Microsoft Graph API (via backend)
+- **Design:** Responsive, role-based dashboard interface
+
+---
+
+## 📦 Getting Started
+
+To run the development server locally:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🔧 Project Structure
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- `pages/` – Routing and page-level logic
+- `components/` – Reusable UI components
+- `styles/` – Tailwind CSS & global styling
+- `public/` – Static assets and icons
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 📌 My Contributions
 
-To learn more about Next.js, take a look at the following resources:
+- 🔄 Restructured component hierarchy for modularity
+- 🖥️ Improved UI responsiveness using Tailwind utility classes
+- 🎯 Refined dashboard UX for better role-specific navigation
+- ♿ Enhanced accessibility and keyboard navigation
+- 💬 Collaborated on frontend-backend data integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🙌 Acknowledgment
 
-## Deploy on Vercel
+This frontend project was originally created by a team of collaborators. I forked and extended it to improve its usability and frontend architecture.  
+Check out the backend project here: [`InsightCase`](https://github.com/meetbhavsar99/InsightCase)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🌐 Deployment
+
+Deploy this project using [Vercel](https://vercel.com/) for instant hosting and CI/CD integration:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+---
+
+## 📫 Contact
+
+**Meet Bhavsar**  
+📧 [meetbhavsar99@gmail.com](mailto:meetbhavsar99@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/meet-bhavsar-0059ba1b5/)
