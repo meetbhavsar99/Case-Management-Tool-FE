@@ -1,66 +1,84 @@
-# Case Management Tool (Frontend)
+# Case Management Tool – Frontend
 
-A responsive web-based **case management interface** built with **Next.js and Tailwind CSS** to streamline workflows and enhance accessibility for clients and staff.  
-This project integrates seamlessly with the backend API and supports Microsoft 365 features such as calendar events and task synchronization.
+This is the **frontend interface** of a full-stack Case Management System, built with **Next.js** and **TypeScript**, designed to assist organizations in managing employment services for individuals with disabilities. The platform focuses on modern UI, streamlined workflows, and secure communication via Microsoft 365.
 
-> 🚀 This is a forked version of a collaborative frontend project. I contributed to UI optimizations, component restructuring, accessibility improvements, and integration refinements.
+> 🚀 This is a forked version of a collaborative project.  
+> I contributed to frontend responsiveness, UI enhancements, and component-level optimization using Tailwind CSS and Next.js best practices.
+
+---
+
+## 🌟 Features
+
+- 📑 Role-based dashboards for case managers and clients
+- ⚡ Microsoft 365-ready layout with Outlook, Calendar, and Task views
+- 🎨 Responsive and accessible UI using Tailwind CSS
+- 🔐 Secure session handling and integration support for OAuth-based login
+- 🧩 Modular page structure built with Next.js and React components
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Framework:** [Next.js](https://nextjs.org/)
-- **Styling:** Tailwind CSS
+- **Framework:** Next.js (v13+)
 - **Language:** TypeScript
-- **API Integration:** Microsoft Graph API (via backend)
-- **Design:** Responsive, role-based dashboard interface
+- **Styling:** Tailwind CSS
+- **API Integration:** Microsoft Graph API-ready frontend
+- **Deployment:** Vercel-ready setup
 
 ---
 
-## 📦 Getting Started
+## 📁 Folder Structure
 
-To run the development server locally:
+```
+
+Case-Management-Tool-FE/
+├── pages/ # Next.js pages and routes
+├── components/ # Reusable UI components
+├── styles/ # Tailwind CSS setup
+├── public/ # Static assets
+└── utils/ # Helper functions & config
+
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 📦 Install Dependencies
 
 ```bash
 npm install
-npm run dev
+# or
+yarn install
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
+### ▶️ Run Locally
 
----
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## 🔧 Project Structure
-
-- `pages/` – Routing and page-level logic
-- `components/` – Reusable UI components
-- `styles/` – Tailwind CSS & global styling
-- `public/` – Static assets and icons
-
----
-
-## 📌 My Contributions
-
-- 🔄 Restructured component hierarchy for modularity
-- 🖥️ Improved UI responsiveness using Tailwind utility classes
-- 🎯 Refined dashboard UX for better role-specific navigation
-- ♿ Enhanced accessibility and keyboard navigation
-- 💬 Collaborated on frontend-backend data integration
+Visit `http://localhost:3000` to view the app.
 
 ---
 
 ## 🙌 Acknowledgment
 
-This frontend project was originally created by a team of collaborators. I forked and extended it to improve its usability and frontend architecture.  
-Check out the backend project here: [`InsightCase`](https://github.com/meetbhavsar99/InsightCase)
+This project was originally created through team collaboration.  
+I contributed to:
+
+- Component-level refactoring and responsiveness
+- Tailwind UI enhancements and consistent layout styling
+- Cleanup and organization of file structure
+- Adding comments and improving code readability
 
 ---
 
-## 🌐 Deployment
+## 📜 License
 
-Deploy this project using [Vercel](https://vercel.com/) for instant hosting and CI/CD integration:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
